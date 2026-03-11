@@ -30,9 +30,37 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 # Program :
 
- 
+ ```python
+import math
+
+# observed values
+x = [0,1,2,3,4,5]
+
+# observed frequency
+f = [5,9,12,8,4,2]
+
+# total observations
+N = sum(f)
+
+# calculate mean (lambda)
+sum_xf = 0
+for i in range(len(x)):
+    sum_xf = sum_xf + x[i]*f[i]
+
+lam = sum_xf / N
+
+print("Mean (lambda) =", lam)
+
+print("\nPoisson Probability and Expected Frequency\n")
+
+for i in x:
+    p = (math.exp(-lam) * lam**i) / math.factorial(i)
+    expected = N * p
+    print("x =", i, "  P(x) =", round(p,4), " Expected Frequency =", round(expected,2))
+```
 
 # Output : 
+<img width="1686" height="901" alt="image" src="https://github.com/user-attachments/assets/7b014e1b-f474-4c08-b262-469bf061997f" />
 
 
 
