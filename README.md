@@ -69,5 +69,5 @@ for i in x:
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
 
 GITHUB LINK:
-
+https://github.com/Dinesh7311/Poisson_distribution/blob/main/README.md
  
