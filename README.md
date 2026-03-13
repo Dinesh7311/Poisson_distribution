@@ -1,3 +1,5 @@
+DATE:04.02.26
+
 # Fitting Poisson  distribution
 
 # Aim : 
@@ -65,4 +67,7 @@ for i in x:
 
 # Results
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
+
+GITHUB LINK:
+
  
