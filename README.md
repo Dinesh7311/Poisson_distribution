@@ -1,4 +1,7 @@
 # Fitting Poisson  distribution
+
+DATE: 04.02.26
+
 # Aim : 
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
@@ -62,7 +65,8 @@ for i in x:
 # Output : 
 <img width="1686" height="901" alt="image" src="https://github.com/user-attachments/assets/7b014e1b-f474-4c08-b262-469bf061997f" />
 
-
+GITHUB LINK:
+https://github.com/Dinesh7311/Poisson_distribution/edit/main/README.md
 
 # Results
 
